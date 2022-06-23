@@ -8,6 +8,7 @@ let numeros = document.querySelector('.d1-3');
 // Variaveis de controle
 
 let etapaAtual = 0;
+let numeroTela = '';
 
 function comecarEtapa(){
     let etapa = etapas[etapaAtual];
@@ -27,7 +28,7 @@ function comecarEtapa(){
 }
 
 function clicou(numero){
-    alert('Clicou em ' + numero)
+    
 }
 
 function branco(){
